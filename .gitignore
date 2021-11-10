@@ -1,0 +1,4 @@
+.DS_Store
+flickr_app/flickr_app/Utilities/Keys.xcconfig
+flickr_app/flickr_app/OAuthSwift/
+flickr_app//flickr_app/SwiftKeychainWrapper/
