@@ -17,7 +17,7 @@ To store data and keep the project organized, I incorporated the use of MVC with
 
 To let users login, Flickr uses OAuth which was incorporated into this project with the help of [OAuthSwift](https://github.com/OAuthSwift/OAuthSwift). This external project assisted in making web requests to the OAuth service and returning responses.
 
-Lastly, handling sensitive user data, I incorporated the use of Apple's Keychain and used an externally built wrapper [SwiftKeychainWrapper](https://github.com/jrendel/SwiftKeychainWrapper) to simplify storing the sensitive data.
+Lastly, when handling sensitive user data, I incorporated the use of Apple's Keychain and used an externally built wrapper [SwiftKeychainWrapper](https://github.com/jrendel/SwiftKeychainWrapper) to simplify storing the sensitive data.
 
 
 ## "How Can I Run this Project Myself?"
@@ -25,7 +25,7 @@ If you take a look at the '.gitignore' file, you will notice that a few files ar
 ### [SwiftKeychainWrapper](https://github.com/jrendel/SwiftKeychainWrapper)
 ### [OAuthSwift](https://github.com/OAuthSwift/OAuthSwift)
 
-Next, create the following file:
+Next, create the following file in the 'Utilities' folder:
 
 Keys.xcconfig
 
