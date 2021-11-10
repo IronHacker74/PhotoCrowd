@@ -21,19 +21,17 @@ Lastly, handling sensitive user data, I incorporated the use of Apple's Keychain
 
 
 ## "How Can I Run this Project Myself?"
-If you take a look at the '.gitignore' file, you will notice that a few files are missing that you will need to download or create. First, you must clone the project onto your device. Then download the following project and add them to your cloned 'PhotoCrowd' project:
+If you take a look at the '.gitignore' file, you will notice that a few files are missing that you will need to download or create. First, you must clone the project onto your device. Then download the following projects, add them to your cloned 'PhotoCrowd' project, and ensure that they are added to your framework in - Project Target/Build Phases/Dependencies:
 ### [SwiftKeychainWrapper](https://github.com/jrendel/SwiftKeychainWrapper)
 ### [OAuthSwift](https://github.com/OAuthSwift/OAuthSwift)
-Also make sure that these projects are added to your target when adding them.
+
 Next, create the following file:
 
 Keys.xcconfig
 
-In this file, you need to add the following two lines and nothing more:
+In this file, you need to add the following two lines and nothing more as the project is designed to take the plain text of your API key and secret and make it a string:
 
 API_KEY = (YOUR API KEY IN PLAIN TEXT)
 API_SECRET = (YOUR API SECRET IN PLAIN TEXT)
 
-The project is designed to take the plain text of your API key and secret and make it a string.
-
-You are now ready to run the project and discover the PhotoCrowd!
+### You are now ready to run the project and discover the PhotoCrowd!
