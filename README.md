@@ -20,18 +20,20 @@ To let users login, Flickr uses OAuth which was incorporated into this project w
 Lastly, handling sensitive user data, I incorporated the use of Apple's Keychain and used an externally built wrapper [SwiftKeychainWrapper](https://github.com/jrendel/SwiftKeychainWrapper) to simplify storing the sensitive data.
 
 
-## "How Can I Run this Project Myself?
-If you take a look at the '.gitignore' file, you will notice that a few files are missing that you will need to download or create.
-
-First, you must clone the project onto your device. Then download the following project and add them to your cloned 'PhotoCrowd' project:
-### SwiftKeychainWrapper](https://github.com/jrendel/SwiftKeychainWrapper)
+## "How Can I Run this Project Myself?"
+If you take a look at the '.gitignore' file, you will notice that a few files are missing that you will need to download or create. First, you must clone the project onto your device. Then download the following project and add them to your cloned 'PhotoCrowd' project:
+### [SwiftKeychainWrapper](https://github.com/jrendel/SwiftKeychainWrapper)
 ### [OAuthSwift](https://github.com/OAuthSwift/OAuthSwift)
 Also make sure that these projects are added to your target when adding them.
 Next, create the following file:
+
 Keys.xcconfig
+
 In this file, you need to add the following two lines and nothing more:
+
 API_KEY = (YOUR API KEY IN PLAIN TEXT)
 API_SECRET = (YOUR API SECRET IN PLAIN TEXT)
+
 The project is designed to take the plain text of your API key and secret and make it a string.
 
 You are now ready to run the project and discover the PhotoCrowd!
