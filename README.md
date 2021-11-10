@@ -25,13 +25,11 @@ If you take a look at the '.gitignore' file, you will notice that a few files ar
 ### [SwiftKeychainWrapper](https://github.com/jrendel/SwiftKeychainWrapper)
 ### [OAuthSwift](https://github.com/OAuthSwift/OAuthSwift)
 
-Next, create the following file in the 'Utilities' folder:
-
-Keys.xcconfig
-
+Next, create the following file in the 'Utilities' folder:  
+Keys.xcconfig  
 In this file, you need to add the following two lines and nothing more as the project is designed to take the plain text of your API key and secret and make it a string:
 
-API_KEY = (YOUR API KEY IN PLAIN TEXT)
+API_KEY = (YOUR API KEY IN PLAIN TEXT)  
 API_SECRET = (YOUR API SECRET IN PLAIN TEXT)
 
 ### You are now ready to run the project and discover the PhotoCrowd!
